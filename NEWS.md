@@ -1,5 +1,7 @@
 # Sparklyr 0.6.1 (UNRELEASED)
 
+- Fixed error triggered while processing empty partitions in `spark_apply()`.
+
 - Fixed `sparklyr 0.6` issue blocking concurrent `sparklyr` connections, which required to set `config$sparklyr.gateway.remote = FALSE` as workaround.
 
 # Sparklyr 0.6.0
